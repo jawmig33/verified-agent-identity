@@ -1,0 +1,5 @@
+cd scripts && npm install && cd ..
+# Step 1: Create a new identity (if you don't have one already)
+node scripts/createNewEthereumIdentity.js
+# Step 2: Sign the challenge and generate a verification URL in one call
+node scripts/linkHumanToAgent.js --to <SENDER> --challenge '{"name": <AGENT_NAME>, "description": <SHORT_DESCRIPTION>}'
