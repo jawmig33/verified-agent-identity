@@ -10,7 +10,7 @@ on:
       agent_description:
         description: 'jaws'
         required: true
-        default: 'finder AI Agent'
+        default: 'jaws AI Agent'
 
 jobs:
   verify:
